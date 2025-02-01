@@ -1,2 +1,4 @@
 # odin-recipes
 Odin Project | Portfolio Project
+
+This is a Portfolio porject for the odin project. it will be a simple website to show off HTML and CSS skills.
