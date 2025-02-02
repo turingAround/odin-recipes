@@ -66,7 +66,7 @@ li::marker {
     color: #00ffff;
 }
 
-a {
+aa {
     color: #ff00ff;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -76,6 +76,17 @@ a:hover {
     color: #00ffff;
     text-shadow: 0 0 10px #00ffff;
 }
+
+a:visited {
+    color: #9932cc;
+    text-shadow: 0 0 10px #b300b3;
+}
+
+a:visited:hover {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
 
 /* Retro horizontal rule */
 hr {
