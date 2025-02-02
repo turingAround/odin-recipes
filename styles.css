@@ -1,0 +1,99 @@
+/* Vaporwave/8-bit style CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #000000;
+    background-image: linear-gradient(45deg, #ff00ff, #00ffff);
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 2px 2px #ff00ff;
+}
+
+h1 {
+    color: #00ffff;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    border: 4px solid #ff00ff;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px #ff00ff;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #00ffff;
+    box-shadow: 0 0 20px #00ffff;
+    image-rendering: pixelated;
+}
+
+.recipe-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border: 4px solid #ff00ff;
+    margin: 20px 0;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+h2, h3 {
+    color: #00ffff;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff00ff;
+    padding-bottom: 10px;
+}
+
+ul, ol {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border: 2px solid #00ffff;
+    list-style-type: square;
+}
+
+li {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+li::marker {
+    color: #00ffff;
+}
+
+a {
+    color: #ff00ff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+/* Retro horizontal rule */
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    margin: 20px 0;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+/* Animation for headings */
+h1:hover, h2:hover, h3:hover {
+    text-shadow: 0 0 10px #00ffff;
+    transition: all 0.3s ease;
+}
+
+/* Custom selection color */
+::selection {
+    background: #ff00ff;
+    color: #000000;
+}
